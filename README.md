@@ -39,6 +39,10 @@ Based on the analysis, selected the top 11 players who fit the defined roles and
 This page is divided into five sub-pages, each focusing on a specific player role:
 
 1. **Openers**
+
+![Screenshot (163)](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/5d1dbc67-51d7-45e1-aa98-19692a80dd54)
+
+
 2. **Anchors**
 3. **Finishers**
 4. **All-rounders**
