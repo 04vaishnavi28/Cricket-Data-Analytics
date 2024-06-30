@@ -36,22 +36,44 @@ Based on the analysis, selected the top 11 players who fit the defined roles and
 ## Dashboard Overview
 
 ### Page 1: Player Analysis
-This page is divided into five sub-pages, each focusing on a specific player role:
+This page is divided into five sub-pages, each focusing on a specific player role. 
+Each sub-page includes various visualizations such as tables, matrices, cards, line charts, and scatter charts to display player performance. Hovering over a player in the table reveals detailed performance statistics for each match.
 
 1. **Openers**
 
-![Screenshot (163)](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/5d1dbc67-51d7-45e1-aa98-19692a80dd54)
-
+![1](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/803560ed-eb32-41a9-a34d-307e08ed3210)
+![2](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/7c4a1fd6-31d5-4c8a-b125-7e7c1d0eb03f)
+![3](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/2881fbfc-8f05-46fb-9050-8b094a470572)
 
 2. **Anchors**
+
+![4](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/a18ade48-ba1d-410d-8ab1-6b81a4a016d7)
+![5](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/86e1b805-9028-43db-af74-f5cf50922a74)
+![6](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/86ce63c1-3674-437e-a3df-b2b8b6888180)
+
 3. **Finishers**
+
+![7](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/62a5eb06-2d48-4c72-b935-ba32d367fefc)
+![8](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/45ba696f-ec32-456e-b4bc-7da314469290)
+![9](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/0a740e12-a301-4924-bcfa-340bef094d32)
+
 4. **All-rounders**
+
+![10](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/ad681338-9e40-4005-b4ed-01128d1720ba)
+![11](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/cb467fb3-fc89-4e7c-9da0-fae51c2986ba)
+![12](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/498c78ef-84ab-4b8a-9a43-789c6e051ee8)
+
 5. **Fast Bowlers**
 
-Each sub-page includes various visualizations such as tables, matrices, cards, line charts, and scatter charts to display player performance. Hovering over a player in the table reveals detailed performance statistics for each match.
+![13](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/9d008392-dafd-447b-b113-f809a426df6c)
+![14](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/16852512-7ea8-415a-95f6-af2fc0507015)
+![15](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/d22e2d2c-9c8a-438b-89a7-7e9eb3c5e956)
+
 
 ### Page 2: Final 11
 This page presents the selected final 11 players. It provides an overview of their key statistics and highlights why each player was chosen for their respective roles.
+
+![16](https://github.com/04vaishnavi28/Cricket-Data-Analytics/assets/132866693/42b665ea-47f8-4f0b-8338-fe3199f36780)
 
 ## Conclusion
 This project provides a data-driven approach to selecting the best XI from the 2023 World Cup. By utilizing advanced data analytics and visualization techniques, the project offers valuable insights into player performances and optimal team composition.
