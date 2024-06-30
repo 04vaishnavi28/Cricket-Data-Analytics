@@ -1,0 +1,49 @@
+Match_no,Date,Venue,Team1,Team2,Winner,match_id
+1,5-Oct,Ahmedabad,England , New Zealand,New Zealand,18020
+2,6-Oct,Hyderabad,Pakistan , Netherlands,Pakistan,18021
+3,7-Oct,Dharamsala,Bangladesh , Afghanistan,Bangladesh,23008
+4,7-Oct,Delhi,South Africa , Sri Lanka,South Africa,23009
+5,8-Oct,Chennai,India , Australia,India,23010
+6,9-Oct,Hyderabad,New Zealand , Netherlands,New Zealand,23011
+7,10-Oct,Dharamsala,England , Bangladesh ,England,23012
+8,10-Oct,Hyderabad,Pakistan , Sri Lanka,Pakistan,23014
+9,11-Oct,Delhi,India , Afghanistan,India,23013
+10,12-Oct,Ekana Cricket Stadium Lucknow,Australia , South Africa,South Africa,23015
+11,13-Oct,Chennai,New Zealand , Bangladesh,New Zealand,23016
+12,14-Oct,Ahmedabad,India , Pakistan,India,23018
+13,15-Oct,Delhi,England , Afghanistan,Afghanistan,23017
+14,16-Oct,Ekana Cricket Stadium Lucknow,Australia , Sri Lanka,Australia,23019
+15,17-Oct,Dharamsala,South Africa , Netherlands,Netherlands,23020
+16,18-Oct,Chennai,New Zealand , Afghanistan,New Zealand,23021
+17,19-Oct,Pune,India , Bangladesh,India,23022
+18,20-Oct,Bengaluru,Australia , Pakistan,Australia,23023
+19,21-Oct,Ekana Cricket Stadium Lucknow,Netherlands , Sri Lanka,Sri Lanka,23024
+20,21-Oct,Mumbai,England , South Africa,South Africa,23025
+21,22-Oct,"Himachal Pradesh Cricket Association Stadium, Dharamsala",India , New Zealand,India,23026
+22,23-Oct,Chennai,Pakistan , Afghanistan,Afghanistan,23027
+23,24-Oct,Mumbai,South Africa , Bangladesh,South Africa,23028
+24,25-Oct,Delhi,Australia , Netherlands,Australia,23029
+25,26-Oct,Bengaluru,England , Sri Lanka,Sri Lanka,23030
+26,27-Oct,Chennai,Pakistan , South Africa,South Africa,23031
+27,28-Oct,Dharamsala,Australia , New Zealand,Australia,23032
+28,28-Oct,Kolkata,Netherlands , Bangladesh,Netherlands,23033
+29,29-Oct,Ekana Cricket Stadium Lucknow,India , England,India,23034
+30,30-Oct,Pune,Afghanistan , Sri Lanka,Afghanistan,23035
+31,31-Oct,Kolkata,Pakistan , Bangladesh,Pakistan,23036
+32,1-Nov,Pune,New Zealand , South Africa,South Africa,23037
+33,2-Nov,Mumbai,India , Sri Lanka,Sri Lanka,23038
+34,3-Nov,Ekana Cricket Stadium Lucknow,Netherlands , Afghanistan,Afghanistan,23039
+35,4-Nov,Bengaluru,New Zealand , Pakistan,Pakistan,23040
+36,4-Nov,Ahmedabad,England , Australia,Australia,23041
+37,5-Nov,Kolkata,India , South Africa,India,23042
+38,6-Nov,Delhi,Bangladesh , Sri Lanka,Bangladesh,23043
+39,7-Nov,Mumbai,Australia , Afghanistan,Australia,23044
+40,8-Nov,Pune,England , Netherlands,England,23045
+41,9-Nov,Bengaluru,New Zealand , Sri Lanka,New Zealand,23046
+42,10-Nov,Ahmedabad,South Africa , Afghanistan,South Africa,23047
+43,11-Nov,Pune,Australia , Bangladesh,Australia,23049
+44,11-Nov,Kolkata,England , Pakistan,England,23050
+45,12-Nov,Bengaluru,India , Netherlands,India,23048
+46,15-Nov,Mumbai,India ,New Zealand,India,23051
+47,16-Nov,Kolkata,Australia , South Africa,Australia,23052
+48,19-Nov,Ahmedabad,India,Australia,Australia,23053
