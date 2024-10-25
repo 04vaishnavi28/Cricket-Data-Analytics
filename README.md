@@ -210,27 +210,6 @@ the player’s name to see their individual or combined strength.")`
 - **DAX Formula**: `Boundary runs = fact_bowling_summary[fours]*4 +fact_bowling_summary[Sixes]*6`
 - **Table**: fact_bowling_summary
 
-### Custom Batting Order
-- **Description**: To assign the batting order to potential final 11
-- **DAX Formula**: `SWITCH(
-    TRUE(),
-dim_player[name] = "Jos Buttler",1,
-dim_player[name] = "Rilee Rossouw",2,
-dim_player[name] = "Alex Hales",2,
-dim_player[name]  = "Virat Kohli",3,
-dim_player[name] = "Suryakumar Yadav" ,4,
-dim_player[name] = "Glenn Phillips" ,5,
-dim_player[name] = "Marcus Stoinis" ,6,
-dim_player[name] = "Glenn Maxwell" ,6,
-dim_player[name] = "Sikandar Raza" ,7,
-dim_player[name] = "Rashid Khan" ,8,
-dim_player[name] = "Shadab Khan" ,8,
-dim_player[name] = "Sam Curran" ,9,
-dim_player[name] = "Shaheen Shah Afridi" ,10,
-dim_player[name] = "Anrich Nortje" ,11
-)`
-- **Table**: dim_player
-
 ### 6. Building Visuals and Dashboard
 Developed a comprehensive dashboard to visualize the analysis. The dashboard includes various charts and tables that display player performance metrics and comparisons.
 
