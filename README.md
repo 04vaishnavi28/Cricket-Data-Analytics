@@ -75,11 +75,6 @@ The team should meet the following criteria:
 | Bowling Average   | No. of runs allowed per wicket           | < 20         |
 | Dot Ball %        | % of dot balls bowled                   | > 40%        |
 
-## Summary
-
-The team composition is based on detailed statistical parameters to form the best 11 players, ensuring both a strong batting lineup capable of high scores and a reliable bowling attack to defend low scores.
-
-
 ### 2. Data Collection
 Gathered comprehensive data from all matches in the 2023 World Cup. The dataset includes player statistics, match outcomes, and other relevant performance metrics.
 The dataset is downloaded from [ODI World Cup 2023](https://www.kaggle.com/datasets/enggbilalalikhan/odi-world-cup-2023-complete-dataset?select=odi+world+cup+2023+dataset)
