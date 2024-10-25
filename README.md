@@ -82,6 +82,7 @@ The team composition is based on detailed statistical parameters to form the bes
 
 ### 2. Data Collection
 Gathered comprehensive data from all matches in the 2023 World Cup. The dataset includes player statistics, match outcomes, and other relevant performance metrics.
+The dataset is downloaded from (ODI World Cup 2023)[https://www.kaggle.com/datasets/enggbilalalikhan/odi-world-cup-2023-complete-dataset?select=odi+world+cup+2023+dataset]
 
 ### 3. Data Cleaning and Transformation
 Processed the raw data to remove inconsistencies and inaccuracies. This step involved handling missing values, correcting data formats, and ensuring uniformity across the dataset.
