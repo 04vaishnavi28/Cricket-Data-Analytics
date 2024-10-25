@@ -114,7 +114,7 @@ Used Data Analysis Expressions (DAX) to create sophisticated models and metrics.
 - **DAX Formula**: `Batting Avg = DIVIDE([Total Runs],[Total Innings Dismissed],0)`
 - **Table**: fact_batting_summary
 
-### Total balls Faced
+### Total Balls Faced
 - **Description**: Total number of balls faced by the batsman
 - **DAX Formula**: `total balls faced = SUM(fact_batting_summary[balls])`
 - **Table**: fact_batting_summary
@@ -134,7 +134,7 @@ Used Data Analysis Expressions (DAX) to create sophisticated models and metrics.
 - **DAX Formula**: `Boundary % =  DIVIDE(SUM(fact_batting_summary[Boundary runs]),[Total Runs],0)`
 - **Table**: fact_batting_summary
 
-### Avg. balls Faced
+### Avg. Balls Faced
 - **Description**: Average balls faced by the batter in an innings
 - **DAX Formula**: `AVERAGE(fact_batting_summary[balls])`
 - **Table**: fact_batting_summary
@@ -144,7 +144,7 @@ Used Data Analysis Expressions (DAX) to create sophisticated models and metrics.
 - **DAX Formula**: `wickets = SUM(fact_bowling_summary[wickets])`
 - **Table**: fact_bowling_summary
 
-### balls Bowled
+### Balls Bowled
 - **Description**: Total number of balls bowled by the bowler
 - **DAX Formula**: `balls Bowled = SUM(fact_bowling_summary[balls])`
 - **Table**: fact_bowling_summary
@@ -195,17 +195,12 @@ the player’s name to see their individual or combined strength.")`
 - **DAX Formula**: `Color Callout Value = if([Player Selection]="0", "#D0CF1D","#1D1D2E")`
 - **Table**: No table specified.
 
-### Calculated Column Name
-- **Description**: Description / Purpose
-- **DAX Formula**: `DAX formula`
-- **Table**: Table
-
-### boundary runs
+### Boundary Runs
 - **Description**: to find the total number of runs scored by hitting fours and sixes
 - **DAX Formula**: `boundary runs = fact_batting_summary[fours]*4 + fact_batting_summary[sixes]*6`
 - **Table**: fact_batting_summary
 
-### Boundary runs bowling
+### Boundary Runs Bowling
 - **Description**: to find the total number of runs conceded by bowlers in boundaries
 - **DAX Formula**: `Boundary runs = fact_bowling_summary[fours]*4 +fact_bowling_summary[Sixes]*6`
 - **Table**: fact_bowling_summary
