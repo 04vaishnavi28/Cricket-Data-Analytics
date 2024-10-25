@@ -26,17 +26,17 @@ The team should meet the following criteria:
 | Parameter         | Description                             | Criteria     |
 | ----------------- | --------------------------------------- | ------------ |
 | Batting Average   | Average runs scored in an innings        | > 30         |
-| Strike Rate       | No. of runs scored per 100 balls         | > 140        |
+| Strike Rate       | No. of runs scored per 100 balls         | > 120        |
 | Innings Batted    | Total innings batted                     | > 3          |
 | Boundary %        | % of runs scored in boundaries           | > 50%        |
-| Batting Position  | Order in which the batter played         | < 4          |
+| Batting Position  | Order in which the batter played         | < 7          |
 
 ### 2. Anchors / Middle Order
 
 | Parameter         | Description                             | Criteria     |
 | ----------------- | --------------------------------------- | ------------ |
 | Batting Average   | Average runs scored in an innings        | > 40         |
-| Strike Rate       | No. of runs scored per 100 balls         | > 125        |
+| Strike Rate       | No. of runs scored per 100 balls         | > 105        |
 | Innings Batted    | Total innings batted                     | > 3          |
 | Avg. Balls Faced  | Average balls faced in an innings        | > 20         |
 | Batting Position  | Order in which the batter played         | > 2          |
@@ -46,10 +46,10 @@ The team should meet the following criteria:
 | Parameter         | Description                             | Criteria     |
 | ----------------- | --------------------------------------- | ------------ |
 | Batting Average   | Average runs scored in an innings        | > 25         |
-| Strike Rate       | No. of runs scored per 100 balls         | > 130        |
+| Strike Rate       | No. of runs scored per 100 balls         | > 110        |
 | Innings Batted    | Total innings batted                     | > 3          |
 | Avg. Balls Faced  | Average balls faced in an innings        | > 12         |
-| Batting Position  | Order in which the batter played         | > 4          |
+| Batting Position  | Order in which the batter played         | > 3          |
 | Innings Bowled    | Total innings bowled                     | > 1          |
 
 ### 4. All-Rounders / Lower Order
@@ -57,18 +57,18 @@ The team should meet the following criteria:
 | Parameter         | Description                             | Criteria     |
 | ----------------- | --------------------------------------- | ------------ |
 | Batting Average   | Average runs scored in an innings        | > 15         |
-| Strike Rate       | No. of runs scored per 100 balls         | > 140        |
-| Innings Batted    | Total innings batted                     | > 2          |
-| Batting Position  | Order in which the batter played         | > 4          |
-| Innings Bowled    | Total innings bowled                     | > 2          |
+| Strike Rate       | No. of runs scored per 100 balls         | > 110        |
+| Innings Batted    | Total innings batted                     | > 1          |
+| Batting Position  | Order in which the batter played         | > 2          |
+| Innings Bowled    | Total innings bowled                     | > 1          |
 | Bowling Economy   | Average runs allowed per over            | < 7          |
-| Bowling Strike Rate| Average no. of balls to take a wicket   | < 20         |
+| Bowling Strike Rate| Average no. of balls to take a wicket   | < 50         |
 
 ### 5. Specialist Fast Bowlers
 
 | Parameter         | Description                             | Criteria     |
 | ----------------- | --------------------------------------- | ------------ |
-| Innings Bowled    | Total innings bowled                     | > 4          |
+| Innings Bowled    | Total innings bowled                     | > 1          |
 | Bowling Economy   | Average runs allowed per over            | < 7          |
 | Bowling Strike Rate| Average no. of balls to take a wicket   | < 16         |
 | Bowling Style     | Bowling style of the player              | "%Fast%"     |
