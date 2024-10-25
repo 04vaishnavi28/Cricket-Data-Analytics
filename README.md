@@ -115,9 +115,9 @@ Used Data Analysis Expressions (DAX) to create sophisticated models and metrics.
 | Dot Ball %                | Percentage of dot balls bowled by a bowler                       | Dot ball % = DIVIDE(SUM(bowling_summary[zeros]), SUM(bowling_summary[balls]),0)                                                  | bowling_summary      |
 | Boundary Runs             | Total number of runs scored by hitting fours and sixes           | boundary runs = batting_summary[fours]*4 + batting_summary[sixes]*6                                                              | batting_summary      |
 | Boundary Runs Bowling     | Total number of runs conceded by bowlers in boundaries           | Boundary runs = bowling_summary[fours]*4 + bowling_summary[Sixes]*6                                                              | bowling_summary      |
-| Player Selection          | To understand if a player is selected or not                     | Player Selection = if(ISFILTERED(dim_player[name]),"1","0")                                                                      | Others   |
-| Display Text              | To display a text if no player is selected                       | Display Text = if([Player Selection] = "1", " " ,"Select Player(s) by clicking  the player’s name to see their individual strength.") | No table specified   |
-| Color Callout Value       | To display a value only when a player is selected                | Color Callout Value = if([Player Selection]="0", "#F4F2DE", "#7C9D96")                                                            | Others   |
+| Player Selection          | To understand if a player is selected or not                     | Player Selection = if(ISFILTERED(dim_player[name]),"1","0")                                                                      |   Others   |
+| Display Text              | To display a text if no player is selected                       | Display Text = if([Player Selection] = "1", " " ,"Select Player(s) by clicking  the player’s name to see their individual strength.") | Others   |
+| Color Callout Value       | To display a value only when a player is selected                | Color Callout Value = if([Player Selection]="0", "#F4F2DE", "#7C9D96")                                                            |   Others   |
 
 
 ### 6. Building Visuals and Dashboard
