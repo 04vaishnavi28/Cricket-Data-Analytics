@@ -15,6 +15,71 @@ This project aims to identify and select the top 11 players from the 2023 World 
 ### 1. Parameter Selection for Victory
 Identified key performance indicators (KPIs) crucial for team success in the World Cup. These parameters include batting averages, strike rates, bowling economy rates, and fielding statistics among others.
 
+The team should meet the following criteria:
+- **Average team score**: 180 runs or more.
+- **Ability to defend**: 150 runs or more.
+
+### Player Roles and Parameters
+
+### 1. Openers
+
+| Parameter         | Description                             | Criteria     |
+| ----------------- | --------------------------------------- | ------------ |
+| Batting Average   | Average runs scored in an innings        | > 30         |
+| Strike Rate       | No. of runs scored per 100 balls         | > 140        |
+| Innings Batted    | Total innings batted                     | > 3          |
+| Boundary %        | % of runs scored in boundaries           | > 50%        |
+| Batting Position  | Order in which the batter played         | < 4          |
+
+### 2. Anchors / Middle Order
+
+| Parameter         | Description                             | Criteria     |
+| ----------------- | --------------------------------------- | ------------ |
+| Batting Average   | Average runs scored in an innings        | > 40         |
+| Strike Rate       | No. of runs scored per 100 balls         | > 125        |
+| Innings Batted    | Total innings batted                     | > 3          |
+| Avg. Balls Faced  | Average balls faced in an innings        | > 20         |
+| Batting Position  | Order in which the batter played         | > 2          |
+
+### 3. Finisher / Lower Order Anchor
+
+| Parameter         | Description                             | Criteria     |
+| ----------------- | --------------------------------------- | ------------ |
+| Batting Average   | Average runs scored in an innings        | > 25         |
+| Strike Rate       | No. of runs scored per 100 balls         | > 130        |
+| Innings Batted    | Total innings batted                     | > 3          |
+| Avg. Balls Faced  | Average balls faced in an innings        | > 12         |
+| Batting Position  | Order in which the batter played         | > 4          |
+| Innings Bowled    | Total innings bowled                     | > 1          |
+
+### 4. All-Rounders / Lower Order
+
+| Parameter         | Description                             | Criteria     |
+| ----------------- | --------------------------------------- | ------------ |
+| Batting Average   | Average runs scored in an innings        | > 15         |
+| Strike Rate       | No. of runs scored per 100 balls         | > 140        |
+| Innings Batted    | Total innings batted                     | > 2          |
+| Batting Position  | Order in which the batter played         | > 4          |
+| Innings Bowled    | Total innings bowled                     | > 2          |
+| Bowling Economy   | Average runs allowed per over            | < 7          |
+| Bowling Strike Rate| Average no. of balls to take a wicket   | < 20         |
+
+### 5. Specialist Fast Bowlers
+
+| Parameter         | Description                             | Criteria     |
+| ----------------- | --------------------------------------- | ------------ |
+| Innings Bowled    | Total innings bowled                     | > 4          |
+| Bowling Economy   | Average runs allowed per over            | < 7          |
+| Bowling Strike Rate| Average no. of balls to take a wicket   | < 16         |
+| Bowling Style     | Bowling style of the player              | "%Fast%"     |
+| Bowling Average   | No. of runs allowed per wicket           | < 20         |
+| Dot Ball %        | % of dot balls bowled                   | > 40%        |
+
+## Summary
+
+The team composition is based on detailed statistical parameters to form the best 11 players, ensuring both a strong batting lineup capable of high scores and a reliable bowling attack to defend low scores.
+
+
 ### 2. Data Collection
 Gathered comprehensive data from all matches in the 2023 World Cup. The dataset includes player statistics, match outcomes, and other relevant performance metrics.
 
