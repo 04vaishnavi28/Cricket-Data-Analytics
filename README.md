@@ -92,6 +92,145 @@ Leveraged Power Query to transform the cleaned data into a more analyzable forma
 ### 5. Data Modeling and Building Parameters Using DAX
 Used Data Analysis Expressions (DAX) to create sophisticated models and metrics. This involved calculating advanced performance metrics and modeling player contributions to team success.
 
+## Measures List
+
+### Total Runs
+- **Description**: Total number of runs scored by the batsman
+- **DAX Formula**: `Total Runs = SUM(fact_batting_summary[runs])`
+- **Table**: fact_batting_summary
+
+### Total Innings Batted
+- **Description**: Total number of innings a batsman got a chance to bat
+- **DAX Formula**: `Total Innings Batted = COUNT(fact_batting_summary[match_id])`
+- **Table**: fact_batting_summary
+
+### Total Innings Dismissed
+- **Description**: To find the number of innings batsman got out
+- **DAX Formula**: `SUM(fact_batting_summary[out])`
+- **Table**: fact_batting_summary
+
+### Batting Average
+- **Description**: Average runs scored in an innings
+- **DAX Formula**: `Batting Avg = DIVIDE([Total Runs],[Total Innings Dismissed],0)`
+- **Table**: fact_batting_summary
+
+### Total balls Faced
+- **Description**: Total number of balls faced by the batsman
+- **DAX Formula**: `total balls faced = SUM(fact_batting_summary[balls])`
+- **Table**: fact_batting_summary
+
+### Strike Rate
+- **Description**: No of runs scored per 100 balls 
+- **DAX Formula**: `Strike rate = DIVIDE([Total Runs],[total balls faced],0)*100`
+- **Table**: fact_batting_summary
+
+### Batting Position
+- **Description**: Batting position of a player
+- **DAX Formula**: `Batting Position = ROUNDUP(AVERAGE(fact_batting_summary[batting_pos]),0)`
+- **Table**: fact_batting_summary
+
+### Boundary %
+- **Description**: Percentage of boundaries scored by the Batsman
+- **DAX Formula**: `Boundary % =  DIVIDE(SUM(fact_batting_summary[Boundary runs]),[Total Runs],0)`
+- **Table**: fact_batting_summary
+
+### Avg. balls Faced
+- **Description**: Average balls faced by the batter in an innings
+- **DAX Formula**: `AVERAGE(fact_batting_summary[balls])`
+- **Table**: fact_batting_summary
+
+### Wickets
+- **Description**: Total number of wickets taken by a bowler
+- **DAX Formula**: `wickets = SUM(fact_bowling_summary[wickets])`
+- **Table**: fact_bowling_summary
+
+### balls Bowled
+- **Description**: Total number of balls bowled by the bowler
+- **DAX Formula**: `balls Bowled = SUM(fact_bowling_summary[balls])`
+- **Table**: fact_bowling_summary
+
+### Runs Conceded
+- **Description**: Total runs conceded by the bowler
+- **DAX Formula**: `Runs Conceded = SUM(fact_bowling_summary[runs])`
+- **Table**: fact_bowling_summary
+
+### Bowling Economy
+- **Description**: Average number of runs conceded in an over
+- **DAX Formula**: `Economy = DIVIDE( [Runs Conceded], ([balls Bowled]/6),0)`
+- **Table**: fact_bowling_summary
+
+### Bowling Strike Rate
+- **Description**: Number of balls bowled per wicket
+- **DAX Formula**: `Bowling Strike Rate = DIVIDE([balls Bowled], [wickets],0)`
+- **Table**: fact_bowling_summary
+
+### Bowling Average
+- **Description**: No. of runs allowed per wicket  
+- **DAX Formula**: `Bowling Average = DIVIDE([Runs Conceded],[wickets],0)`
+- **Table**: fact_bowling_summary
+
+### Total Innings Bowled
+- **Description**: Total number of innings bowled by a bowler
+- **DAX Formula**: `Total Innings Bowled = DISTINCTCOUNT(fact_bowling_summary[match_id])`
+- **Table**: fact_bowling_summary
+
+### Dot Ball %
+- **Description**: Percentage of dot balls bowled by a bowler
+- **DAX Formula**: `Dot ball % = DIVIDE(SUM(fact_bowling_summary[zeros]), SUM(fact_bowling_summary[balls]),0)`
+- **Table**: fact_bowling_summary
+
+### Player Selection
+- **Description**: To understand if a player is selected or not
+- **DAX Formula**: `Player Selection = if(ISFILTERED(dim_player[name]),"1","0")`
+- **Table**: No table specified.
+
+### Display Text
+- **Description**: To display a text of no player is selected
+- **DAX Formula**: `Display Text = if([Player Selection] = "1", " " ,"Select Player(s) by clicking 
+the player’s name to see their individual or combined strength.")`
+- **Table**: No table specified.
+
+### Color Callout Value
+- **Description**: To display a value only when a player is selected
+- **DAX Formula**: `Color Callout Value = if([Player Selection]="0", "#D0CF1D","#1D1D2E")`
+- **Table**: No table specified.
+
+### Calculated Column Name
+- **Description**: Description / Purpose
+- **DAX Formula**: `DAX formula`
+- **Table**: Table
+
+### boundary runs
+- **Description**: to find the total number of runs scored by hitting fours and sixes
+- **DAX Formula**: `boundary runs = fact_batting_summary[fours]*4 + fact_batting_summary[sixes]*6`
+- **Table**: fact_batting_summary
+
+### Boundary runs bowling
+- **Description**: to find the total number of runs conceded by bowlers in boundaries
+- **DAX Formula**: `Boundary runs = fact_bowling_summary[fours]*4 +fact_bowling_summary[Sixes]*6`
+- **Table**: fact_bowling_summary
+
+### Custom Batting Order
+- **Description**: To assign the batting order to potential final 11
+- **DAX Formula**: `SWITCH(
+    TRUE(),
+dim_player[name] = "Jos Buttler",1,
+dim_player[name] = "Rilee Rossouw",2,
+dim_player[name] = "Alex Hales",2,
+dim_player[name]  = "Virat Kohli",3,
+dim_player[name] = "Suryakumar Yadav" ,4,
+dim_player[name] = "Glenn Phillips" ,5,
+dim_player[name] = "Marcus Stoinis" ,6,
+dim_player[name] = "Glenn Maxwell" ,6,
+dim_player[name] = "Sikandar Raza" ,7,
+dim_player[name] = "Rashid Khan" ,8,
+dim_player[name] = "Shadab Khan" ,8,
+dim_player[name] = "Sam Curran" ,9,
+dim_player[name] = "Shaheen Shah Afridi" ,10,
+dim_player[name] = "Anrich Nortje" ,11
+)`
+- **Table**: dim_player
+
 ### 6. Building Visuals and Dashboard
 Developed a comprehensive dashboard to visualize the analysis. The dashboard includes various charts and tables that display player performance metrics and comparisons.
 
